@@ -39,12 +39,17 @@
                                 <code>tmux attach-session</code><br />
                                 <code>tmux a -t sessionname</code>
                             </div>
-                        </div>
-                        <div class="col info">
                             <div>
                                 <code class="headline">_ remove sessions</code>
                                 <code>tmux kill-sess</code><br />
                                 <code>tmux kill-session -t sessionname</code>
+                            </div>
+                        </div>
+                        <div class="col info">
+                            <div>
+                                <div class="mb-1 alert alert-info small">
+                                    The so called <code>prefix</code> to activate <code>tmux</code> commands defaults to <kbd class="p">Ctrl</kbd> + <kbd class="p">B</kbd> – but may be changed in your environment!
+                                </div>
                             </div>
                             <div>
                                 <code class="headline">_ key bindings</code>
@@ -60,6 +65,9 @@
                                     </li>
                                     <li>
                                         <kbd class="p">Ctrl</kbd> + <kbd class="p">B</kbd> <kbd class="s">(</kbd> previous session
+                                    </li>
+                                    <li>
+                                        <kbd class="p">Ctrl</kbd> + <kbd class="p">B</kbd> <kbd class="s">D</kbd> select other viewers to detach them
                                     </li>
                                 </ul>
                             </div>
